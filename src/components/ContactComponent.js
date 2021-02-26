@@ -14,7 +14,6 @@ class Contact extends Component {
 
     handleSubmit(values) {
         alert("Current State is: " + JSON.stringify(values));
-        values.preventDefault();
     }
 
     render() {
